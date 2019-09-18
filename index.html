@@ -13,10 +13,26 @@
         
         <!--Javascript Code-->
         <script>
+            
+            var numClicksNeeded = 20;
+            
+            function clickOnce() {
+                if (numClicksNeeded > 1) {
+                    numClicksNeeded = numClicksNeeded - 1;
+                    document.getElementById("change").innerHTML = numClicksNeeded;
+                }
+                else {
+                    document.getElementById("change").innerHTML = "Finished!";
+                }
+            }
         </script>
     </head>
-    <body>
-        <h1>Test</h1>
+    <body onclick="clickOnce()">
+        <div style="text-align: center;">
+            <div width="800" style="text-align:center; margin-top:50px; border-style: solid;">
+                <h1 id="change">Click 20 times to unlock</h1>
+            </div>
+        </div>
         
         
         <!--Footer with Github URL-->
