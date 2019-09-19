@@ -1,0 +1,171 @@
+
+
+div{
+  font-size:20px;
+  text-align:center;
+}
+
+.Center{
+    width:800px;
+    height:800px;
+    margin:auto;
+    padding:0%;
+    position: relative;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border-radius:5%;
+}
+        
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.button1 {
+  background-color: white; 
+  color: white;
+  border: none;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+    position: absolute;
+    background-color: #4CAF50;
+    border: none;
+
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    
+    width: 100px;
+    height: 60px;
+}
+
+
+
+.hiddenlink{
+    color: white;
+}
+
+.hiddenlink:visited{
+    color: white;
+}
+
+.disablelink{
+    pointer-events: none;
+    color: white;
+}
+
+.disablelink:visited{
+    color: white;
+}
+
+.badbutton{
+    position: absolute;
+    background-color: #FFFFFF;
+    border: none;
+    
+
+    top: 75%;
+    bottom: 25%;
+    left: 75%;
+    right: 25%;
+    
+    width: 120px;
+    height: 60px;
+}
+
+.badbutton2{
+    position: absolute;
+    background-color: #FFFFFF;
+    border: none;
+
+    top: 25%;
+    bottom: 75%;
+    left: 25%;
+    right: 75%;
+    
+    width: 120px;
+    height: 60px;
+}
+
+.badbutton3{
+    position: absolute;
+    background-color: #FFFFFF;
+    border: none;
+
+    top: 25%;
+    bottom: 75%;
+    left: 25%;
+    right: 75%;
+    
+    width: 120px;
+    height: 60px;
+}
+
+.badbutton4{
+    position: absolute;
+    background-color: #FFFFFF;
+    border: none;
+
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    
+    width: 120px;
+    height: 60px;
+}
+
+.disablelink1{
+    pointer-events: none;
+    color: white;
+}
+
+.disablelink1:visited{
+    color: white;
+}
+
+.disablelink2{
+    pointer-events: none;
+    color: white;
+}
+
+.disablelink2:visited{
+    color: white;
+}
+
+.disablelink3{
+    pointer-events: none;
+    color: white;
+}
+
+.disablelink3:visited{
+    color: white;
+}
+
+.disablelink4{
+    pointer-events: none;
+    color: white;
+}
+
+.disablelink4:visited{
+    color: white;
+}
