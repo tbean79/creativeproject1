@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Links to Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!--Links to Bootstrap Javascript-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+       
         <script>
             var button2 = document.getElementById("#button2");
             var time = 0;
@@ -14,23 +22,23 @@
                     document.getElementById("button2").style.left="10%";
                     document.getElementById("badbutton").style.backgroundColor="#F7BFBE";
                     document.getElementById("badbutton").style.top= "66%";
-                    document.getElementById("badbutton").style.right="15%";
-                    document.getElementById("badbutton").style.left="85%";
+                    document.getElementById("badbutton").style.right="40%";
+                    document.getElementById("badbutton").style.left="60%";
                     document.getElementById("disablelink1").style.pointerEvents="auto";
                     
                 
                 }
                 if (time == 1)
                 {
-                    document.getElementById("button2").style.top = "90%";
-                    document.getElementById("button2").style.right = "10%";
-                    document.getElementById("button2").style.left = "90%";
-                    document.getElementById("button2").style.bottom = "10%";
-                    document.getElementById("badbutton").style.top= "35%";
+                    document.getElementById("button2").style.top = "80%";
+                    document.getElementById("button2").style.right = "40%";
+                    document.getElementById("button2").style.left = "60%";
+                    document.getElementById("button2").style.bottom = "20%";
+                    document.getElementById("badbutton").style.top= "45%";
                     document.getElementById("badbutton").style.right="45%";
                     document.getElementById("badbutton").style.left="55%";
                     document.getElementById("badbutton2").style.backgroundColor="#4CAF50";
-                    document.getElementById("badbutton2").style.top= "10%";
+                    document.getElementById("badbutton2").style.top= "30%";
                     document.getElementById("badbutton2").style.right="90%";
                     document.getElementById("badbutton2").style.left="10%";
                     document.getElementById("disablelink2").style.pointerEvents="auto";
@@ -43,11 +51,11 @@
                     document.getElementById("button2").style.left = "40%";
                     document.getElementById("button2").style.bottom = "25%";
                     document.getElementById("badbutton").style.top= "25%";
-                    document.getElementById("badbutton").style.right="25%";
-                    document.getElementById("badbutton").style.left="75%";
+                    document.getElementById("badbutton").style.right="40%";
+                    document.getElementById("badbutton").style.left="60%";
                     document.getElementById("badbutton2").style.top= "50%";
-                    document.getElementById("badbutton2").style.right="20%";
-                    document.getElementById("badbutton2").style.left="80%";
+                    document.getElementById("badbutton2").style.right="45%";
+                    document.getElementById("badbutton2").style.left="55%";
                     
                     document.getElementById("badbutton3").style.backgroundColor="#4CAF50";
                     document.getElementById("disablelink3").style.pointerEvents="auto";
@@ -55,8 +63,8 @@
                 if (time == 3)
                 {
                     document.getElementById("button2").style.top = "15%";
-                    document.getElementById("button2").style.right = "15%";
-                    document.getElementById("button2").style.left = "85%";
+                    document.getElementById("button2").style.right = "30%";
+                    document.getElementById("button2").style.left = "70%";
                     document.getElementById("button2").style.bottom = "85%";
                     document.getElementById("badbutton").style.top= "20%";
                     document.getElementById("badbutton").style.right="85%";
@@ -101,28 +109,27 @@
     </head>
     <body>
         
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="page1.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="page2.html">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="page3.html">Pricing<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="victoryPage.html">About</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+        <nav style = "z-index: 3;" class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Current Location:</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link  disabled" href="">Level 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="">Level 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style = "color: red;" class="nav-link" href="">Level 3</a>
+                    </li>
+                </ul>
+                <a href="../index.html"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Return To The Beginning of the Maze</button></a>
+            </div>
+        </nav>
     
     <button class="badbutton" id="badbutton"><a class = "disablelink1" id="disablelink1" href = "failure.html">Don't Click Me!</a></button>
     <button class="badbutton2" id="badbutton2"><a class = "disablelink2" id="disablelink2" href = "failure.html">Don't Click Me!</a></button>

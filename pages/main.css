@@ -1,8 +1,9 @@
+.decNon{
+    text-decoration: none;
+}
 
-
-div{
-  font-size:20px;
-  text-align:center;
+.decNon:hover{
+    text-decoration: none;
 }
 
 .Center{
@@ -19,24 +20,24 @@ div{
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 4px 4px;
+  padding: 4px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 40px;
   margin: 4px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
   position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .button1 {
   background-color: white; 
   color: white;
   border: none;
+  bottom: 30%;
+  left: 30%;
 }
 
 .button1:hover {
@@ -56,6 +57,8 @@ div{
     
     width: 100px;
     height: 60px;
+    
+    z-index: 2;
 }
 
 
@@ -81,7 +84,7 @@ div{
     position: absolute;
     background-color: #FFFFFF;
     border: none;
-    
+    z-index: 1;
 
     top: 75%;
     bottom: 25%;
@@ -96,6 +99,7 @@ div{
     position: absolute;
     background-color: #FFFFFF;
     border: none;
+    z-index: 1;
 
     top: 25%;
     bottom: 75%;
